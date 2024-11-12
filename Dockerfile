@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11-jre-jammy
+FROM eclipse-temurin:11-jre-noble
 
 ARG LIQUIBASE_VERSION=4.17.1
 

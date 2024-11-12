@@ -22,6 +22,10 @@ podLabels: {}
 
 podAnnotations: {}
 
+commonPodLabels: {}
+
+commonPodAnnotations: {}
+
 imagePullSecrets: []
 
 resources: {}
@@ -34,7 +38,9 @@ affinity: {}
 
 tolerations: {}
 
-securityContext: {}
+podSecurityContext: {}
+
+containerSecurityContext: {}
 
 activeDeadlineSeconds: 600
 
