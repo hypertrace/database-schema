@@ -1,6 +1,6 @@
-FROM eclipse-temurin:11-jre-noble
+FROM eclipse-temurin:23-jre-noble
 
-ARG LIQUIBASE_VERSION=4.17.1
+ARG LIQUIBASE_VERSION=4.30.0
 
 RUN apt update && \
     apt upgrade -y && \
